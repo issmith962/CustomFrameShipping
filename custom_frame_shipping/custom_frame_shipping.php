@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Plugin Name: Custom Frame Shipping
- * Plugin URI: https://github.com/omukiguy/techiepress-dhl-shipping
+ * Plugin Name: Custom Frame Shipping Calculator
+ * Plugin URI: https://github.com/issmith962/CustomFrameShippingCalculator
  * Author: Isaac Smith
- * Author URI: https://github.com/omukiguy/techiepress-dhl-shipping
- * Description: Techipress DHL Shipping plugin
+ * Author URI: https://github.com/issmith962/CustomFrameShippingCalculator
+ * Description: Uses the UPS Shipping API to estimate the shipping costs for frame packages of various custom sizes. 
  * Version: 0.0.1
  */
  
