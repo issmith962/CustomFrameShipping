@@ -21,9 +21,9 @@
 
             public function __construct($instance_id = 0) {
                 parent::__construct($instance_id); 
-                $this->id                 = 'custom_frame_shipping'; // Id for your shipping method. Should be uunique.
-				$this->method_title       = __( 'Custom Frame Shipping' );  // Title shown in admin
-				$this->method_description = __( 'Custom Frame Shipping: Wood boxes built by hand to perfectly suit the fragile nature of quality frames.' ); // Description shown in admin
+                $this->id                 = 'custom_frame_shipping'; 
+				$this->method_title       = ( 'Custom Frame Shipping' );  // Title shown in admin
+				$this->method_description = ( 'Custom Frame Shipping Calculator:  Uses the UPS Shipping API to estimate the shipping costs for frame packages of various custom sizes.'); // Description shown in admin
                 $this->supports = array(
                     'shipping-zones', 
                     'settings', 
